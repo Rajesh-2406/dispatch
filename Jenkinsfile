@@ -4,6 +4,7 @@
         node { label 'workstation'}
         }
     stages {
+
       stage('Build') {
        steps{
          sh 'npm install'
